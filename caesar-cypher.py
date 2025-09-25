@@ -2,7 +2,7 @@
 
 import random
 
-def encrypt(word:str ,rotation_int:int = (random.randint(0, 50))):
+def encrypt(word:str ,rotation_int:int = (random.randint(0, 25))):
 
     word = word.lower()
     NumtoWord = ""
